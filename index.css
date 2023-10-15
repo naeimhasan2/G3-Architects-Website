@@ -94,7 +94,7 @@ margin-bottom: 40px;
 /* main styles */
 
 main{
-    max-width: 1440px;
+    width: 1440px;
     margin: 70px auto;
 }
 
@@ -114,9 +114,6 @@ display: flex;
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
     margin: 0 0 0 200px;
-    
-
-
 }
 .teams-content{
     margin-right: 70px;
@@ -166,7 +163,7 @@ margin-bottom: 30px;
 .feature{
     margin: 150px  160px 10px 160px;
     display: flex;
-    gap: 100px;
+    gap: 50px;
 }
 
 .feature-img img{
