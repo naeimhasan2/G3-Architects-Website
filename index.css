@@ -162,10 +162,111 @@ margin-bottom: 30px;
 }
  */
 
+/* feature styles */
+.feature{
+    margin: 150px  160px 10px 160px;
+    display: flex;
+    gap: 100px;
+}
+
+.feature-img img{
+    /* width: auto; */
+     width: 608px;
+height: 882px;
+flex-shrink: 0; 
+margin-left: 50px;
+}
+
+.feature-title{
+    color: #131313;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.feature-description{
+color: #727272;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; 
+margin-top: 20px;
+}
+
+.feature-content .card{
+    border-radius: 8px;
+background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+width: 486px;
+height: 120px;
+flex-shrink: 0;
+gap: 10px;
+
+}
+
+.feature .feature-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 15px;
+}
+
+.card-txt{
+    color: #131313;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: 50px;
+margin-bottom: 8px;
+}
+
+.card-description{
+    color: #727272;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; 
+text-align: justify;
+}
+
+.u10-years-badge{
+    border-radius: 8px;
+    background: #FF900E;
+    width: 200px;
+height: 100px;
+flex-shrink: 0;
+padding: 30px;
+position: relative;
+bottom: 120px;
+
+}
+
+.u10-years-badge-title{
+    color: #FFF;
+text-align: center;
+font-size: 55px;
+font-style: normal;
+font-weight: 700;
+line-height: 70px; /* 107.692% */
+}
+
+.u10-years-badge-description{
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+
+
+
 /* facts styles */
 
 .facts-title-desc{
-    margin: 50px  200px ;
+    margin: 0 200px 50px 200px  ;
 }
 .facts-text{
     color: #131313;
@@ -178,11 +279,12 @@ margin-bottom: 20px;
 
 .facts-description{
     color: #727272;
-font-size: 16px;
+font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: 26px;
 margin-bottom: 100px;
+width: 462px;
 }
 
 

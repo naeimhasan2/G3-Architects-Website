@@ -39,13 +39,16 @@ height: 340px;
 /* facts section */
 
 .facts-title-desc{
-    margin: 20px 70px;
+    margin: 0 70px 20px 70px ;
     text-align: justify;
 }
 .facts-card-container{
     flex-direction: column;
     margin: 30px;
     gap: 20px;
+}
+.facts-description{
+    width: auto;
 }
 
 /* sponspors section */
@@ -82,6 +85,36 @@ height: 340px;
 .footer-description{
     justify-content: center;
 }
+/* features section */
+.feature {
+    margin: 10px 30px ;
+    flex-direction: column;
+}
+.card-description{
+    font-size: 14px;
+    width: 400px;
+    height: 100px;
+    text-align: justify;
+}
+.feature-img img{
+    width: 320px;
+    height: 450px;
+    /* width: 100%; */
+    margin-left: 0;
+    /* margin-left: 50px; */
+}
+.u10-years-badge{
+
+    /* width: 100px;
+height: 70px;
+padding: 10px; */
+width:270px;
+height: 100px;
+padding: 30px;
+position: static;
+/* bottom: 120px; */
+}
+
 }
 /* ipad/tablet device */
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -129,6 +162,7 @@ height: 340px;
     }
     .facts-description{
         margin-bottom: 50px;
+        
     }
 
     /* sponspors section */
@@ -152,5 +186,17 @@ height: 340px;
         margin-top: 80px;
         margin: 0 100px ;
         padding: 30px 100px;
+    }
+
+    /* feature section */
+    .feature{
+        flex-direction: column;
+        margin: 0 70px;
+        gap: 20px;
+    }
+    .feature-content .card{
+        width: auto;
+        height: auto;
+        padding: 10px;
     }
 }
