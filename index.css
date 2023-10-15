@@ -162,6 +162,134 @@ margin-bottom: 30px;
 }
  */
 
+/* facts styles */
+
+.facts-title-desc{
+    margin: 50px  200px ;
+}
+.facts-text{
+    color: #131313;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 20px;
+}
+
+.facts-description{
+    color: #727272;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+margin-bottom: 100px;
+}
+
+
+
+.facts-card-container{
+    display: flex;
+    justify-content: space-between;
+     margin: 0 220px; 
+    /* gap: 70px; */
+    /* margin-top: 40px;  */
+    
+}
+.facts-card-container .card{
+    border-radius: 8px;
+border: 1px solid #FF900E;
+    /* width: 200px;
+height: 200px; */
+text-align: center;
+padding: 30px;
+
+}
+
+/* .images{
+    width: 40.221px;
+height: 40.221px;
+} */
+
+.card-stats{
+    color: #424242;
+    font-size: 35px;
+    font-style: normal;
+font-weight: 600;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.card-title{
+    text-align: center;
+    color: #727272;
+    font-size: 16px;
+    font-style: normal;
+font-weight: 600;
+margin-top: 5px;
+}
+
+/* sponspors styles */
+
+.sponspors{
+    margin: 50px 150px;
+}
+.sponspors-title-desc{
+    text-align: center;
+}
+
+.sponspors-text{
+    color: #131313;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 130px;
+margin-bottom: 18px;
+}
+
+.sponspors-description{
+    color: #727272;
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+
+.sponspors-company{
+ display: flex;
+    /* gap: 80px; */
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+/* .img-sponspors{
+    width: 140.757px;
+height: 40px;
+flex-shrink: 0;
+} */
+
+/* footer styles */
+
+.footer{
+    border-radius: 8px;
+    background: #FFF4E7;
+    margin: 150px ;
+    padding: 30px 200px;
+}
+
+.footer-description{
+    color:  #424242;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
 
 
 
